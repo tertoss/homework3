@@ -1,0 +1,16 @@
+#1 задание
+pet_type = input("Введите вид питомца: ")
+age = input("Введите возраст питомца: ")
+name = input("Введите кличку питомца: ")
+
+print(f'Это {pet_type} по кличке "{name}". Возраст: {age} года.')
+#2 задание
+
+stages = []
+num_stages = 9  # количество стадий
+
+for i in range(1, num_stages + 1):
+    stage = input(f"Введите стадию развития человека {i} (последняя стадия - Homo sapiens sapiens): ")
+    stages.append(stage)
+
+print(" => ".join(stages))
